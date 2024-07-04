@@ -60,7 +60,6 @@ void statusVidaPokemons (struct pkmn *pokemonP1, int qtdP1, struct pkmn *pokemon
 int main(){
 
     int quantidadePkmnP1=0, quantidadePkmnP2=0;
-    int batalha = 1;
 
     FILE *file = fopen("pkmn.txt", "rt");
 
@@ -92,14 +91,16 @@ int main(){
     }
 
     int pkmnP1=0, pkmnP2 =0;
-    while(batalha == 1){
+    int finalizaBatalha = 0;
+
+    while(1){
         //ataque do jogador 1
         atacaPokemon(&pokemonP1[pkmnP1], &pokemonP2[pkmnP2]);
         if(verificaVida(pokemonP2[pkmnP2].vida) == 1) {
             printf("%s venceu %s \n", pokemonP1[pkmnP1].nome, pokemonP2[pkmnP2].nome);
             pkmnP2++;
-            batalha = encerraBatalha(quantidadePkmnP2, pkmnP2); //verifica se o defensor ainda tem pokemons
-            if (batalha==0) {
+            finalizaBatalha = encerraBatalha(quantidadePkmnP2, pkmnP2); //verifica se o defensor ainda tem pokemons
+            if (finalizaBatalha==1) {
                 printf("Jogador 1 venceu \n");
                 break;
             } 
@@ -110,15 +111,15 @@ int main(){
         if(verificaVida(pokemonP1[pkmnP1].vida) == 1) {
             printf("%s venceu %s \n", pokemonP2[pkmnP2].nome, pokemonP1[pkmnP1].nome);
             pkmnP1++;
-            batalha = encerraBatalha(quantidadePkmnP1, pkmnP1); //verifica se o defensor ainda tem pokemons
-            if (batalha==0) {
+            finalizaBatalha = encerraBatalha(quantidadePkmnP1, pkmnP1); //verifica se o defensor ainda tem pokemons
+            if (finalizaBatalha==1) {
             printf("Jogador 2 venceu \n");
             break;
             } 
         }
     }
 
-    statusVidaPokemons(pokemonP1, quantidadePkmnP1, pokemonP2, quantidadePkmnP2);
+    statusVidaPokemons(pokemonP1, quantidadePkmnP1, pokemonP2, quantidadePkmnP2); //listar os sobreviventes e derrotados
 
     getchar();
     fclose (file);
