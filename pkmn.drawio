@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T19:38:35.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="RCUnnA0RG-ourPOfoEHo" version="24.6.4" type="github">
+  <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
+    <mxGraphModel dx="1956" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-6" target="7IbEP6XDwnNeJwE3PP2S-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-6" value="Início" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-820" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-17" value="Arquivo de texto&lt;div&gt;pkmn.txt&lt;/div&gt;" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-760" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-20" target="7IbEP6XDwnNeJwE3PP2S-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-20" value="Alocar memória&lt;div style=&quot;font-size: 10px;&quot;&gt;para cada Pokémon&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-29" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;- Quantidade de Pokemons&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-31" value="- Nome&lt;div style=&quot;font-size: 7px;&quot;&gt;- Ataque&lt;/div&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;- Defesa&lt;/div&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;- Tipo&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="25" y="-710" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-32" value="Atribuir cada pokemon a um registro struct" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-34" target="7IbEP6XDwnNeJwE3PP2S-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-34" value="Abrir o arquivo de texto pkmn.txt" style="whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=60.00000000000001;exitDy=47.5;exitPerimeter=0;entryX=-0.009;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-17" target="7IbEP6XDwnNeJwE3PP2S-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-82" target="7IbEP6XDwnNeJwE3PP2S-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-82" value="Batalha" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopStandard=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-810" width="370" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7IbEP6XDwnNeJwE3PP2S-82" source="7IbEP6XDwnNeJwE3PP2S-98" target="7IbEP6XDwnNeJwE3PP2S-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-98" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;chamar a função atacaPokemon&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacingTop=-5;fontStyle=0" vertex="1" parent="7IbEP6XDwnNeJwE3PP2S-82">
+          <mxGeometry x="30.00285714285718" y="70" width="146.28571428571428" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="7IbEP6XDwnNeJwE3PP2S-82" source="7IbEP6XDwnNeJwE3PP2S-100" target="7IbEP6XDwnNeJwE3PP2S-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-115" value="encerraBatalha = 0" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontSize=7;labelPosition=center;verticalLabelPosition=bottom;" vertex="1" connectable="0" parent="7IbEP6XDwnNeJwE3PP2S-99">
+          <mxGeometry x="-0.4227" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-100" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;verificar se ainda há pokémons restantes&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;spacingTop=0;fontSize=6;" vertex="1" parent="7IbEP6XDwnNeJwE3PP2S-82">
+          <mxGeometry x="217.43142857142857" y="179.995" width="73.14285714285714" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7IbEP6XDwnNeJwE3PP2S-82" source="7IbEP6XDwnNeJwE3PP2S-103" target="7IbEP6XDwnNeJwE3PP2S-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304.28857142857146" y="105" />
+              <mxPoint x="304.28857142857146" y="30" />
+              <mxPoint x="103.14571428571429" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-111" value="verificaVida = 0" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelPosition=right;verticalLabelPosition=middle;fontSize=7;" vertex="1" connectable="0" parent="7IbEP6XDwnNeJwE3PP2S-101">
+          <mxGeometry x="-0.6688" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="7IbEP6XDwnNeJwE3PP2S-82" source="7IbEP6XDwnNeJwE3PP2S-103" target="7IbEP6XDwnNeJwE3PP2S-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-109" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;verificaVida = 1&lt;/font&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelPosition=right;verticalLabelPosition=middle;fontSize=7;" vertex="1" connectable="0" parent="7IbEP6XDwnNeJwE3PP2S-102">
+          <mxGeometry x="-0.375" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-103" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;verificar a vida do pokémon&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;spacingTop=0;fontSize=6;" vertex="1" parent="7IbEP6XDwnNeJwE3PP2S-82">
+          <mxGeometry x="217.43142857142857" y="65.005" width="73.14285714285714" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-107" value="Break" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="7IbEP6XDwnNeJwE3PP2S-82">
+          <mxGeometry x="340" y="250" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7IbEP6XDwnNeJwE3PP2S-82" source="7IbEP6XDwnNeJwE3PP2S-100" target="7IbEP6XDwnNeJwE3PP2S-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-114" value="encerraBatalha = 1" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];fontSize=7;labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="7IbEP6XDwnNeJwE3PP2S-113">
+          <mxGeometry x="-0.3825" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-32" target="7IbEP6XDwnNeJwE3PP2S-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-105" target="7IbEP6XDwnNeJwE3PP2S-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-105" value="Imprimir no terminal os Pokémons sobreviventes e derrotados" style="whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-116" target="7IbEP6XDwnNeJwE3PP2S-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-116" value="Fechar o arquivo de texto" style="whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-118" value="Liberar a memória alocada para a struct pkmn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-120" value="Fim" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="1">
+          <mxGeometry x="815" y="-530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7IbEP6XDwnNeJwE3PP2S-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7IbEP6XDwnNeJwE3PP2S-118" target="7IbEP6XDwnNeJwE3PP2S-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
